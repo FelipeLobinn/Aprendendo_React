@@ -1,0 +1,10 @@
+.containerPrincipal {
+  padding: 50px 200px;
+  border-radius: 15px;
+  background-color: rgb(138, 63, 207);
+  border-bottom: 1px solid;
+}
+
+.containerPai h1 {
+  color: brown;
+}

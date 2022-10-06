@@ -1,13 +1,17 @@
 import React from "react";
 import PrimeiroComponente from "../PrimeiroComponente";
+import "../Components.css";
 
 function ComponentePai() {
   const etiqueta = "Insira seu email: ";
   return (
-    <PrimeiroComponente
-      etiqueta={etiqueta}
-      numero={1}
-    />
+    <div class="containerContador">
+      <h1>Hello!</h1>
+      <PrimeiroComponente
+        etiqueta={etiqueta}
+        numero={1}
+      />
+    </div>
   );
 }
 

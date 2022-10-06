@@ -1,13 +1,14 @@
 import React from "react";
+import "../Components.css";
 
 function PrimeiroComponente({ etiqueta, numero }) {
   return (
-    <div>
+    <div class="containerPrincipal">
       <form>
-        <p>Hello</p>
         <label>{etiqueta}</label>
         <br />
         <input />
+        <br />
         <label>{numero}</label>
       </form>
     </div>
